@@ -10,16 +10,16 @@ class ProyectoItem(scrapy.Item):
     # define the fields for your item here like:
     # name = scrapy.Field()
     # PRIMARY FIELDS
-    title = Field()
-    price = Field()
+    title = scrapy.Field()
+    #price = scrapy.Field()
 
     # CALCULATED FIELDS
-    images = Field()
-    location = Field()
+    #images = scrapy.Field()
+    #location = scrapy.Field()
 
     # HOUSEKEEPING FIELDS
-    url = Field()
-    project = Field()
-    server = Field()
-    spider = Field()
-    date = Field()
+    #url = scrapy.Field()
+    #project = scrapy.Field()
+    #server = scrapy.Field()
+    #spider = scrapy.Field()
+    #date = scrapy.Field()
